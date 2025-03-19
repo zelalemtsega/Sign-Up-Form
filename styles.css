@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Norse Bold;
+    src: url(Sign-Up-Form/fonts/Norse-Bold.otf);
+}
+body {
+    display: flex;
+}
+.sidebar {
+    font-family: 'Norse Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 900;
+    flex: 1 0 100%/3;
+}
+.container {
+    background-color: #bbccdc;
+    flex: auto;
+}
+.content {
+    flex: 1 1 0px;
+}
+ul {
+    list-style: none;
+}
+.sidebar .img {
+    width: 400px;
+}
